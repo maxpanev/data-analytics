@@ -28,5 +28,5 @@ driver.quit()
 
 with open("homework.csv", 'w', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
-    writer.writerow(['Цены'])
+    writer.writerow(['Price'])
     writer.writerows(my_list)
